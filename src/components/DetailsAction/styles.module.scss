@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+
+.actionWrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: $colorWhite;
+    padding-left: 376px;
+  }
+  .actionContainer {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between; 
+  }
+  .confirmTransactionBtn{
+    text-transform: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: inherit;
+    letter-spacing: 0.15px;
+    color: $colorCyan;
+    box-shadow: none;
+    padding: 12px 36px;
+    border-color: $colorCyan;
+    border-radius: 8px;
+    &:hover {
+      box-shadow: none;
+      border-color: $colorCyan;
+      opacity: 0.8;
+    }
+  }
+  .buttonCancel {
+    text-transform: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: inherit;
+    letter-spacing: 0.15px;
+    color: $colorBlackLight2;
+    box-shadow: none;
+    padding: 12px 36px;
+    border-color: $colorBlackLight2;
+    border-radius: 8px;
+    &:hover {
+      box-shadow: none;
+      border-color: $colorBlackLight2;
+      opacity: 0.8;
+    }
+  }
+  

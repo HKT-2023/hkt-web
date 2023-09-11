@@ -1,0 +1,22 @@
+@import '../../../../styles/variables.scss';
+
+.boxWrap {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background-color: $colorWhite;
+  padding: 1rem;
+}
+.buttonCollap {
+  border: 1px solid $colorCyan;
+  color: $colorCyan;
+  width: 56px;
+  min-width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.buttonCollapIconShow {
+  transform: rotate(180deg);
+}

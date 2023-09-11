@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.userName {
+  color: $colorBlackLight;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+.textField{
+  width: 378px
+}
+.changePasswordBtn{
+  width: 48%;
+  .button {
+    width: 48%;
+  }
+}
+.logoutBtn{
+  width: 48%;
+  color: $colorBrownRed;
+  border-color: $colorBrownRed;
+  .button {
+    width: 48%; 
+  }
+}
+.layoutAvatar{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

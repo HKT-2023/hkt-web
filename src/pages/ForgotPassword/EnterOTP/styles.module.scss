@@ -1,0 +1,20 @@
+@import '../../../styles/variables';
+
+.textCyan {
+  color: $colorCyan;
+}
+.textWarning {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: $colorRed;
+  margin-bottom: 16px;
+}
+.resendCode {
+  cursor: pointer;
+  color: $colorCyan;
+  text-decoration: underline;
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.breadcrumbTitle {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: $colorBlackLight;
+  margin-bottom: 1rem;
+}
+.breadcrumbList {
+  color: $colorGreen;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin-bottom: 4px;
+  span {
+    color: $colorGrayLight;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

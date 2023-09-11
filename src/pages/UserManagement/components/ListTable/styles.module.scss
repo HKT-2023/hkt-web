@@ -1,0 +1,46 @@
+@import '../../../../styles/variables.scss';
+
+.labelActive {
+  padding: 4px 12px;
+  background: $colorGrey;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: $colorDarkCyan;
+  &[data-status='Inactive'] {
+    background: $colorRed1;
+    color: $colorRed2;
+  }
+}
+.tableHead {
+  border-top: 1px solid $colorGray4;
+  border-bottom: 1px solid $colorGray4;
+  background-color: $colorGray5;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: $colorGray3;
+  padding: 12px;
+}
+.tableBody {
+  border-top: 1px solid $colorGray4;
+  border-bottom: 1px solid $colorGray4;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: $colorGray2;
+  padding: 14px 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sortIcon {
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}

@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.boxWrap {
+  background-color: $colorWhite;
+  padding: 16px 20px;
+  border-radius: 8px;
+}
+.title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: $colorBlackLight;
+}
+.buttonCreate {
+  text-transform: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: inherit;
+  letter-spacing: 0.1px;
+  color: $colorDarkCyan;
+  box-shadow: none;
+  padding: 6px 12px;
+  border-color: $colorDarkCyan;
+  border-radius: 6px;
+  &:hover {
+    box-shadow: none;
+    border-color: $colorDarkCyan;
+    opacity: 0.8;
+  }
+}

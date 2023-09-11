@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.cancelBtn {
+  width: 48%;
+  color: $colorBrownRed;
+  border-color: $colorBrownRed;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 16px;
+  &:hover {
+    border-color: $colorBrownRed;
+    background: transparent;
+    opacity: 0.8;
+  }
+}
+.confirmBtn {
+  width: 48%;
+  background-color: $colorBrownRed;
+  &:hover {
+    opacity: 0.8;
+    background-color: $colorBrownRed;
+  }
+}

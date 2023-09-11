@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+ 
+.textField{
+  width: 378px
+}
+.changePasswordBtn{
+  width: 48%;
+  color: #424242;
+  border-color: #424242;
+  text-transform: capitalize;
+  font-size: 16px;
+  .button {
+    width: 48%; 
+  }
+} 

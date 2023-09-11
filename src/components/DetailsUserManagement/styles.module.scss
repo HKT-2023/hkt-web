@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+
+.boxWrap {
+  background-color: $colorWhite;
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+.boxContainer {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+.customUpload {
+  box-sizing: border-box;
+  border: 1px solid $colorCyan;
+  border-radius: 4px;
+  padding: 12px 14px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $colorCyan;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.heading {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: $colorGray9;
+  margin-bottom: 30px;
+}
+.subheading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: $colorGray9;
+  margin-bottom: 1rem;
+}
+.inputHidden {
+  position: absolute;
+  left: -99999px;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}

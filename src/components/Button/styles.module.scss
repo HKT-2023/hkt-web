@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.button {
+  background-color: $colorCyan;
+  text-transform: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: $colorWhite;
+  box-shadow: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  &:hover {
+    background-color: $colorCyan;
+    box-shadow: none;
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../styles/variables.scss";
+
+ 
+.logoutBtn{
+  width: 48%;
+  color: $colorBrownRed;
+  border-color: $colorBrownRed;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 16px;
+  .button {
+    width: 48%; 
+    font-weight: 600;
+  }
+}
+.confirmBtn{
+  width: 48%;
+  background-color: $colorBrownRed;
+  &:hover{
+    opacity: 0.8;
+    background-color: $colorBrownRed;
+  }
+}
+ 

@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.forgotLayout {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+.forgotText {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: $colorGrayLight;
+  &:hover {
+    opacity: 0.8;
+  }
+}
